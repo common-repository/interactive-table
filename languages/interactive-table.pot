@@ -1,0 +1,368 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Interactive Table\n"
+"POT-Creation-Date: 2018-02-12 17:46+0600\n"
+"PO-Revision-Date: 2018-02-12 17:45+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: interactive-table.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: include/it-custom-post-type.php:8 include/it-custom-post-type.php:9
+msgid "Interactive Table"
+msgstr ""
+
+#: include/it-custom-post-type.php:10
+msgctxt "Admin menu name"
+msgid "INAV Table"
+msgstr ""
+
+#: include/it-custom-post-type.php:11 include/it-custom-post-type.php:12
+msgid "Add New"
+msgstr ""
+
+#: include/it-custom-post-type.php:13
+msgid "Edit"
+msgstr ""
+
+#: include/it-custom-post-type.php:14
+msgid "Edit Cell"
+msgstr ""
+
+#: include/it-custom-post-type.php:15
+msgid "New Cell"
+msgstr ""
+
+#: include/it-custom-post-type.php:16 include/it-custom-post-type.php:17
+msgid "View Cell"
+msgstr ""
+
+#: include/it-custom-post-type.php:18
+msgid "Search Cells"
+msgstr ""
+
+#: include/it-custom-post-type.php:19
+msgid "No Cells found"
+msgstr ""
+
+#: include/it-custom-post-type.php:20
+msgid "No Cells found in trash"
+msgstr ""
+
+#: include/it-custom-post-type.php:21
+msgid "Parent Cell"
+msgstr ""
+
+#: include/it-custom-post-type.php:24
+msgid "Responsive Interactive Table"
+msgstr ""
+
+#: include/it-custom-post-type.php:45 include/it-custom-post-type.php:47
+#: include/it-custom-post-type.php:48
+msgid "Cell Category"
+msgstr ""
+
+#: include/it-custom-post-type.php:49
+msgctxt "Admin menu name"
+msgid "Category"
+msgstr ""
+
+#: include/it-custom-post-type.php:50
+msgid "Search Cell Category"
+msgstr ""
+
+#: include/it-custom-post-type.php:51
+msgid "All Cell Categories"
+msgstr ""
+
+#: include/it-custom-post-type.php:52
+msgid "Parent Cell Category"
+msgstr ""
+
+#: include/it-custom-post-type.php:53
+msgid "Parent Cell Category:"
+msgstr ""
+
+#: include/it-custom-post-type.php:54
+msgid "Edit Cell Category"
+msgstr ""
+
+#: include/it-custom-post-type.php:55
+msgid "Update Cell Category"
+msgstr ""
+
+#: include/it-custom-post-type.php:56
+msgid "Add New Cell Category"
+msgstr ""
+
+#: include/it-custom-post-type.php:57
+msgid "New Cell Category Name"
+msgstr ""
+
+#: include/it-custom-post-type.php:70 include/it-custom-post-type.php:72
+#: include/it-custom-post-type.php:73
+msgid "Group"
+msgstr ""
+
+#: include/it-custom-post-type.php:74
+msgctxt "Admin menu name"
+msgid "Group"
+msgstr ""
+
+#: include/it-custom-post-type.php:75
+msgid "Search Group"
+msgstr ""
+
+#: include/it-custom-post-type.php:76
+msgid "All Groups"
+msgstr ""
+
+#: include/it-custom-post-type.php:77
+msgid "Parent Group"
+msgstr ""
+
+#: include/it-custom-post-type.php:78
+msgid "Parent Group:"
+msgstr ""
+
+#: include/it-custom-post-type.php:79
+msgid "Edit Group"
+msgstr ""
+
+#: include/it-custom-post-type.php:80
+msgid "Update Group"
+msgstr ""
+
+#: include/it-custom-post-type.php:81
+msgid "Add New Group"
+msgstr ""
+
+#: include/it-custom-post-type.php:82
+msgid "No groups found."
+msgstr ""
+
+#: include/it-custom-post-type.php:83
+msgid "New Group Name"
+msgstr ""
+
+#: include/it-functions.php:11 include/it-functions.php:35
+msgid "Order"
+msgstr ""
+
+#: include/it-functions.php:15 include/it-functions.php:37
+msgid "Cell Category Order."
+msgstr ""
+
+#: include/it-functions.php:21 include/it-functions.php:41
+msgid "Color"
+msgstr ""
+
+#: include/it-functions.php:25
+msgid "Cell Category Color."
+msgstr ""
+
+#: include/it-functions.php:43
+msgid "Cell Category Color"
+msgstr ""
+
+#: include/it-metaboxes-config.php:19
+msgid "Read More Redirect Link:"
+msgstr ""
+
+#: include/it-metaboxes-config.php:21
+msgid "Cell Custom CSS Class:"
+msgstr ""
+
+#: include/it-metaboxes-config.php:27
+msgid "Short Description"
+msgstr ""
+
+#: include/it-settings-process.php:5
+msgid "Settings saved."
+msgstr ""
+
+#: include/it-settings-process.php:11
+msgid "Nonce unverified! Try again."
+msgstr ""
+
+#: include/it-settings.php:2
+msgid "Interactive Table Settings"
+msgstr ""
+
+#: include/it-settings.php:10
+msgid "Block Heading"
+msgstr ""
+
+#: include/it-settings.php:13
+msgid "Top"
+msgstr ""
+
+#: include/it-settings.php:14
+msgid "Left"
+msgstr ""
+
+#: include/it-settings.php:15
+msgid "Right"
+msgstr ""
+
+#: include/it-settings.php:16
+msgid "Bottom"
+msgstr ""
+
+#: include/it-settings.php:21
+msgid "Posts per row"
+msgstr ""
+
+#: include/it-settings.php:25
+msgid "Applicable if \"Block Heading\" set to Left/Right"
+msgstr ""
+
+#: include/it-settings.php:29
+msgid "Cell Title Color"
+msgstr ""
+
+#: include/it-settings.php:35
+msgid "Cell Hover Title Color"
+msgstr ""
+
+#: include/it-settings.php:41
+msgid "Cell Font Color"
+msgstr ""
+
+#: include/it-settings.php:47
+msgid "Cell Hover Font Color"
+msgstr ""
+
+#: include/it-settings.php:53
+msgid "Read More Font Color"
+msgstr ""
+
+#: include/it-settings.php:59
+msgid "Display Mode"
+msgstr ""
+
+#: include/it-settings.php:62
+msgid "Highlight"
+msgstr ""
+
+#: include/it-settings.php:63
+msgid "Filter"
+msgstr ""
+
+#: include/it-settings.php:68
+msgid "Highlight Mode"
+msgstr ""
+
+#: include/it-settings.php:71
+msgid "On Hover"
+msgstr ""
+
+#: include/it-settings.php:72
+msgid "On Click"
+msgstr ""
+
+#: include/it-settings.php:77
+msgid "Highlight Color"
+msgstr ""
+
+#: include/it-settings.php:83
+msgid "Cell Hover"
+msgstr ""
+
+#: include/it-settings.php:85 include/it-settings.php:104
+#: include/it-settings.php:136
+msgid "Enable"
+msgstr ""
+
+#: include/it-settings.php:94
+msgid "Single cell slug URL"
+msgstr ""
+
+#: include/it-settings.php:98
+msgid "Re-save WP Settings->Permalink again if you update this slug URL"
+msgstr ""
+
+#: include/it-settings.php:102
+msgid "Title Hover"
+msgstr ""
+
+#: include/it-settings.php:108
+msgid "Read More"
+msgstr ""
+
+#: include/it-settings.php:111 include/it-settings.php:128
+msgid "Yes"
+msgstr ""
+
+#: include/it-settings.php:112 include/it-settings.php:129
+msgid "No"
+msgstr ""
+
+#: include/it-settings.php:117
+msgid "Read More Label"
+msgstr ""
+
+#: include/it-settings.php:121
+msgid "Read More Link Text"
+msgstr ""
+
+#: include/it-settings.php:125
+msgid "Load Default CSS"
+msgstr ""
+
+#: include/it-settings.php:134
+msgid "Fixed Highlight"
+msgstr ""
+
+#: include/it-settings.php:142
+msgid "Save Changes"
+msgstr ""
+
+#: include/it-shortcodess-table.php:165 include/it-shortcodess-table.php:178
+#: include/it-shortcodess-table.php:306
+msgid "All"
+msgstr ""
+
+#: interactive-table.php:67
+msgid "Settings"
+msgstr ""
+
+#: interactive-table.php:68
+msgid "Support"
+msgstr ""
+
+#: interactive-table.php:69
+msgid "Docs"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://plugins.rmweblab.com/interactive-table/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A dynamic way to display clean & responsive interactive table for your "
+"contents in a nice view."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RM Web Lab"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://rmweblab.com"
+msgstr ""

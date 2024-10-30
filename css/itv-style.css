@@ -1,0 +1,120 @@
+.edit_cell{ font-size:10px; line-height:10px; text-align:center; }
+.column_list th, .column_list td { text-align: center; }
+.filter_all.right-align { text-align: right; }
+.column_list td .cell-title { display: block; }
+.column_list .cell .cell-title { display: block; }
+.appended td .filter_td_wrap, .v-filtered .v-filtered-content, .v-filtered .v-col-content, .horz-filtered .horizontal_td_wrap { transform: scale(0.0001); transition: all 0.5s ease 0s; }
+.column_list { text-align: center; }
+.heading.horizontal .cell-heading { float: left; }
+.heading.horizontal:after, .it_row:after { clear: both; display: table; content: ""; }
+.column_list.horizontal .cell, .vertical-posts-container .cell { float: left; }
+.dynamic_table_wrap .cellwrap{ padding:10px; }
+
+.appended .cell .filter_td_wrap, .v-filtered .v-filtered-content, .v-filtered .v-col-content, .horz-filtered .horizontal_td_wrap { transform: scale(0.0001); transition: all 0.5s ease 0s; }
+.heading_col { width: 20%; float: left; }
+.vertical-posts-container { width: 80%; float: left; }
+.column_list.vertical:after { clear: both; display: table; content: ""; }
+.display_heading_Right .column_list .vertical-posts-container{ float:left; }
+.display_heading_Right .column_list .heading_col{ float:right; }
+
+
+
+/**********Pricing table Top Layout**************/
+.interactive_pricing_table{}
+.interactive_pricing_table .pricing-table-style-top{}
+.interactive_pricing_table .pricing-table-style-top.pricing-col-1 .pricing-col-wrap{ width:100%; }
+.interactive_pricing_table .pricing-table-style-top.pricing-col-2 .pricing-col-wrap{ width:49%; margin-right:2%; float:left; }
+.interactive_pricing_table .pricing-table-style-top.pricing-col-2 .pricing-col-wrap:last-child{ margin-right:0;}
+.interactive_pricing_table .pricing-table-style-top.pricing-col-3 .pricing-col-wrap{ width:32%; margin-right:2%; float:left; }
+.interactive_pricing_table .pricing-table-style-top.pricing-col-3 .pricing-col-wrap:last-child{ margin-right:0;}
+.interactive_pricing_table .pricing-table-style-top.pricing-col-4 .pricing-col-wrap{ width:23.5%; float:left; margin-right:2%; }
+.interactive_pricing_table .pricing-table-style-top.pricing-col-4 .pricing-col-wrap:last-child{ margin-right:0;}
+.interactive_pricing_table .pricing-table-style-top.pricing-col-5 .pricing-col-wrap{ width:18.5%; margin-right:1.875%; float:left; }
+.interactive_pricing_table .pricing-table-style-top.pricing-col-5 .pricing-col-wrap:last-child{ margin-right:0;}
+.interactive_pricing_table .pricing-table-style-top.pricing-col-6 .pricing-col-wrap{ width:15.3%; margin-right:1.639%; float:left; }
+.interactive_pricing_table .pricing-table-style-top.pricing-col-6 .pricing-col-wrap:last-child{ margin-right:0;}
+
+/*______Pricing Left style Layout____*/
+.interactive_pricing_table .pricing-table-style-left .section-item-4 .cell-heading{width:30%; float:left;}
+.interactive_pricing_table .pricing-table-style-left .section-item-4 .pricing-price{ width:15%; float:left;}
+.interactive_pricing_table .pricing-table-style-left .section-item-4 .pricing-features{ width: 30%; float:left;}
+.interactive_pricing_table .pricing-table-style-left .section-item-4 .pricing-button{ width: 22%; float:left;}
+
+.interactive_pricing_table .pricing-table-style-left .section-item-3 .cell{ width:33.33%; float:left;}
+.interactive_pricing_table .pricing-table-style-left .section-item-2 .cell{ width:49.95%; float:left;}
+.interactive_pricing_table .pricing-table-style-left .section-item-1 .cell{ width:100%; text-align:center;}
+
+
+
+
+/*___ Media CSS Start   __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  */
+
+@media (min-width: 768px){
+	.interactive_pricing_table .pricing-table-style-left .section-item-4 .cellwrap, 
+	.interactive_pricing_table .pricing-table-style-top .cell-heading .cellwrap{vertical-align:middle; display:table-cell;}
+	.interactive_pricing_table .pricing-table-style-left .section-item-3 .pricing-price .cellwrap,
+	.interactive_pricing_table .pricing-table-style-left .section-item-3 .pricing-features .cellwrap,
+	.interactive_pricing_table .pricing-table-style-left .section-item-3 .pricing-button .cellwrap{ float:right;}
+	
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-5 .pricing-col-wrap,
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-6 .pricing-col-wrap{ width:32%; margin:0 2% 2% 0;}
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-5 .pricing-col-wrap:nth-child(3n),
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-6 .pricing-col-wrap:nth-child(3n){ margin-right:0;}
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-6 .pricing-col-wrap:nth-child(3n+1){ clear:both;}
+	
+}
+
+
+@media (min-width:600px) and (max-width: 890px){
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-4 .pricing-col-wrap{ width:48%; float:left; margin:0 4% 4% 0; }
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-4 .pricing-col-wrap:nth-child(even){ margin-right:0;}
+	.column_list.vertical .cell-heading span{ font-size:17px !important;}
+}
+
+@media (min-width:600px) and (max-width: 800px){
+	.column_list.horizontal .cell, .heading.horizontal .cell-heading{ width:50% !important;}
+	
+}
+
+
+@media (max-width: 768px){
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-3 .pricing-col-wrap{ width:100%; float:none; margin:0 0 20px 0;}
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-5 .pricing-col-wrap,
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-6 .pricing-col-wrap{ width:49%; margin:0 2% 2% 0;}
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-5 .pricing-col-wrap:nth-child(even),
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-6 .pricing-col-wrap:nth-child(even){ margin-right:0;}
+	.interactive_pricing_table .pricing-table-style-top .cellwrap{ text-align:center;}
+	
+	.interactive_pricing_table .pricing-table-style-left .pricing-col-wrap .cell-heading,
+	.interactive_pricing_table .pricing-table-style-left .pricing-col-wrap .pricing-features,
+	.interactive_pricing_table .pricing-table-style-left .pricing-col-wrap .pricing-price,
+	.interactive_pricing_table .pricing-table-style-left .pricing-col-wrap .pricing-button{ width:100% !important; float:none !important; text-align:center;}
+	.interactive_pricing_table .pricing-table-style-left .pricing-features .cellwrap{ padding-left:0; padding-right:0;}
+	.interactive_pricing_table .pricing-table-style-left .pricing-features ul li{ list-style:none; padding:7px 0; border-top:1px solid #343E4E; border-bottom:1px solid #1D222C; }
+	.interactive_pricing_table .pricing-table-style-left .pricing-features ul li:first-child{ border-top:none;}
+	.interactive_pricing_table .pricing-table-style-left .pricing-features ul li:last-child{ border-bottom:none;}
+	.interactive_pricing_table .pricing-table-style-left .pricing-features ul{ padding-left:0;}
+	.vertical-posts-container .cell, .column_list.vertical .cell-heading{ width: 100% !important; margin-bottom:10px; }
+	.column_list.vertical .heading_col { width: 100%; }
+	.column_list.vertical .vertical-posts-container { width: 100%; }
+	.column_list.vertical .heading_col .cell-heading { height: auto !important; }
+	.column_list.vertical .heading_col .cell-heading span { padding-top: 0 !important; }	
+	.display_heading_Right .column_list .vertical-posts-container{ float:right; }
+	.display_heading_Right .column_list .heading_col{ float:left; }
+	
+}
+
+@media (max-width: 599px){
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-2 .pricing-col-wrap,
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-4 .pricing-col-wrap,
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-5 .pricing-col-wrap,
+	.interactive_pricing_table .pricing-table-style-top.pricing-col-6 .pricing-col-wrap{ width:100%; float:none; margin:0 0 20px 0; }
+	.heading.horizontal .cell-heading, .column_list.horizontal .cell{ width: 100% !important; margin-bottom:10px; }
+	
+}
+

@@ -1,0 +1,86 @@
+.dynamic_table_wrap { font-family:Arial, Helvetica, sans-serif;}
+.heading { font-weight: bold; }
+.column_list th { background: #e8e5ee; color: #FFFFFF; }
+.column_list th p { font-weight: normal; font-size: 12px; line-height: 16px; margin-bottom: 0; }
+.column_list th span { text-transform: uppercase; font-size: 20px; }
+.column_list td { font-size: 12px; line-height: 16px; padding: 10px; }
+.column_list td .cell-title { font-size: 16px; font-weight: bold; margin-bottom: 5px; }
+.column_list td .cell-title a { text-decoration: none; box-shadow: 0 0 0 0; color: #1f1f1f; }
+.column_list th.blur { color: transparent; text-shadow: 0 0 1.5px rgba(0, 0, 0, 0.5); }
+.filter_all > a { background: #333333; color: #FFFFFF; padding: 10px 25px; text-decoration: none; }
+.filter_all > a:hover, .filter_all > a:focus { background: #1f1f1f; color: #FFFFFF; }
+.column_list .cell { background: #f5f2fb; color: #000000; }
+
+.heading.horizontal .cell-heading { background: #151515; color: #FFFFFF; padding-top:10px; /*display: table;*/ }
+.heading_col .cell-heading { background: #151515; color: #FFFFFF; }
+
+.column_list .cell-heading p { font-weight: normal; font-size: 12px; line-height: 16px; margin-bottom: 0; }
+.column_list .cell .cell-title { font-size: 16px; font-weight: bold; margin-bottom: 5px; }
+.column_list .cell .cell-title a { text-decoration: none; box-shadow: 0 0 0 0; color: #1f1f1f; }
+.column_list .cell p{ margin:10px 0;}
+.column_list .cell br{ display:none; }
+
+.column_list .cell { font-size: 14px; line-height: 18px; }
+.column_list .cell .cell-title { font-size: 16px; font-weight: bold; margin-bottom: 10px; margin-top: 10px; }
+.column_list .cell .cell-title a { text-decoration: none; box-shadow: 0 0 0 0; color: #1fcd1f; }
+/*.column_list .cell-heading.blur { color: transparent; text-shadow: 0 0 1.5px rgba(0, 0, 0, 0.5); }*/
+.column_list .cell-heading p { font-weight: normal; font-size: 12px; line-height: 16px; margin-bottom: 0; }
+.column_list .cell-heading span { text-transform: uppercase; font-size: 20px; }
+.column_list .cell .v-col-content > a.cell_read_more, .column_list .cell .horizontal_td_wrap > a.cell_read_more, .column_list .v-filtered-content > a.cell_read_more { background: #000000; text-decoration: none; color: #FFFFFF; padding: 5px 15px; display: inline-block; margin-top: 12px; box-shadow: none; transition: all 0.3s ease 0s; }
+.column_list .cell .v-col-content > a.cell_read_more:hover, .column_list .cell .horizontal_td_wrap > a.cell_read_more:hover, .column_list .v-filtered-content > a.cell_read_more:hover { background: #FFFFFF; color: #333333; }
+.column_list.vertical .heading_col .cell-heading span { display: block; font-weight: 700; }
+
+
+/*______Pricing Tabel Top________*/
+.interactive_pricing_table .pricing-table-style-top .pricing-col-wrap{ background:#272E3A;}
+.interactive_pricing_table .pricing-table-style-top ul, .interactive_pricing_table .pricing-table-style-top ol{ margin:0; padding-left:1em;}
+
+.interactive_pricing_table .pricing-table-style-top .cellwrap{ padding:0;}
+.interactive_pricing_table .pricing-table-style-top .cell-heading{ padding:15px 10px;}
+.interactive_pricing_table .pricing-table-style-top .cell-heading .cellwrap span{ font-weight:bold; color:#FFFFFF; font-size:18px; line-height:130%; }
+.interactive_pricing_table .pricing-table-style-top .cell-heading .cellwrap p{ text-transform:uppercase; color:#FFFFFF; margin:12px 0 5px; font-size:12px; line-height:140%;}
+
+.interactive_pricing_table .pricing-price{ background:#242933; padding:0 10px; font-weight:bold;  border-bottom:1px solid #313844; line-height:110%;  border-top:1px solid #313844; font-size:40px; color:#dddddd; text-align:center; }
+
+.interactive_pricing_table .pricing-price sup,
+.interactive_pricing_table .pricing-price sub{ font-size:16px; font-weight:normal; color:#999999;}
+.interactive_pricing_table .pricing-price sup{ font-size:22px;}
+.interactive_pricing_table .pricing-price p{ margin:0;}
+ 
+.interactive_pricing_table .pricing-table-style-top .price_value{  }
+
+.interactive_pricing_table .pricing-table-style-top .cell ul{ background:#272e3a; padding:1em 0; border-bottom:1px solid #313844;}
+.interactive_pricing_table .pricing-table-style-top .cell ul li{ font-size:13px; padding:0.8em; color:#999999; border-bottom:1px solid #313844; list-style:none;}
+.interactive_pricing_table .pricing-table-style-top .cell ul li:last-child{ border-bottom:none;}
+.interactive_pricing_table .pricing-button a.button{ display:table; margin:0 auto; border:none; padding-top:7px; padding-bottom:7px; text-shadow:none; font-weight:normal; border-radius:0; color:#ffffff;}
+
+.interactive_pricing_table .pricing-table-style-top .cell.pricing-button{ overflow:hidden;}
+
+.interactive_pricing_table .pricing-col-wrap{ transition: all 0.5s ease-out;}
+
+.interactive_pricing_table .pricing-col-wrap:hover{ box-shadow:0 0 8px #555555; transition: all 0.5s ease-out; }
+
+
+
+/*______Pricing Table Left_______*/
+.interactive_pricing_table .pricing-table-style-left .pricing-col-wrap{ background:#272E3A; margin-bottom:20px; overflow:hidden;}
+.interactive_pricing_table .pricing-table-style-left .cell-heading{ color:#ffffff;}
+.interactive_pricing_table .pricing-table-style-left .cell-heading .cellwrap span{ font-size:22px; line-height:120%; font-weight:bold;}
+.interactive_pricing_table .pricing-table-style-left .cell-heading .cellwrap p{ margin:8px 0; font-size:12px; text-transform:uppercase; }
+
+.interactive_pricing_table .pricing-table-style-left .pricing-features ul li{ color:#999999;}
+.interactive_pricing_table .pricing-table-style-left .pricing-features ul{ margin:0;}
+.interactive_pricing_table .pricing-table-style-left .pricing-price{ border:none;}
+
+
+.interactive_pricing_table .pricing-table-style-left .section-item-2 .pricing-price,
+.interactive_pricing_table .pricing-table-style-left .section-item-2 .pricing-features,
+.interactive_pricing_table .pricing-table-style-left .section-item-2 .pricing-button{ background:#242933;}
+
+
+
+
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.column_list th.blur { text-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
+}
